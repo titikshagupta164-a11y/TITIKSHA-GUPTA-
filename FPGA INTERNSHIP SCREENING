@@ -1,0 +1,24 @@
+SKY130 RTL Design and Synthesis Workshop
+Tools Used :
+- Yosys
+- GTKWave
+- Icarus Verilog
+- Sky130 Standard Cell Library
+
+1. MUX Synthesis (good_mux)
+
+
+
+2. Hierarchical Design – Multiple Modules
+
+3. Submodule Synthesis (AND Gate)
+
+4.Sequential Circuit – DFF with Asynchronous Reset
+
+5.Sequential Circuit – DFF with Asynchronous Set
+
+6. Sequential Circuit – DFF with Synchronous Reset
+
+7. Optimization Case – mul2
+
+8. Combinational Logic – mult8
