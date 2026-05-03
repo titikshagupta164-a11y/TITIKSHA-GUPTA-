@@ -1,4 +1,4 @@
-## SKY130 RTL Design and Synthesis Workshop
+### SKY130 RTL Design and Synthesis Workshop
 
 ## Tools Used
 
