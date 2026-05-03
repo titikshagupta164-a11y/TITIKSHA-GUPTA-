@@ -1,62 +1,63 @@
-SKY130 RTL Design and Synthesis Workshop
-Tools Used :
+# SKY130 RTL Design and Synthesis Workshop
+
+## Tools Used
 - Yosys
 - GTKWave
 - Icarus Verilog
 - Sky130 Standard Cell Library
-1. MUX Synthesis (good_mux)
-
-### Schematic
-![MUX](MUX.png)
-
-### Waveform
-![MUX Waveform](MUX_WAVE.png)
-
----
-2. Hierarchical Design – Multiple Modules
-
-![Multiple Modules](MULTIPLE_MODULE.png)
 
 ---
 
- 3. Submodule Synthesis (AND Gate)
+## 1. MUX Synthesis (good_mux)
 
-![Submodule](SUB_MODULE.png)
+![MUX](./MUX.png)
 
----
-
- 4. Sequential Circuit – Basic D Flip-Flop
-
-![DFF](DFF.png)
+![MUX Waveform](./MUX_WAVE.png)
 
 ---
 
- 5. Sequential Circuit – D Flip-Flop with Asynchronous Reset
+## 2. Hierarchical Design – Multiple Modules
 
-![DFF Async Reset](DFF_RESET.png)
-
----
-
- 6. Sequential Circuit – D Flip-Flop with Asynchronous Set
-
-![DFF Async Set](DFF_ASYNC_SET.png)
+![Multiple Modules](./MULTIPLE_MODULE.png)
 
 ---
 
- 7. Sequential Circuit – Flip-Flop Implementation
+## 3. Submodule Synthesis (AND Gate)
 
-![Flip Flop](FLIP_FLOP.png)
-
----
-
- 8. Optimization Case – mul2
-
-![mul2](MUL2.png)
+![Submodule](./SUB_MODULE.png)
 
 ---
 
- 9. Combinational Logic – mult8
+## 4. Sequential Circuit – Basic D Flip-Flop
 
-![mult8](MULT8.png)
+![DFF](./DFF.png)
 
 ---
+
+## 5. Sequential Circuit – D Flip-Flop with Asynchronous Reset
+
+![DFF Reset](./DFF_RESET.png)
+
+---
+
+## 6. Sequential Circuit – D Flip-Flop with Asynchronous Set
+
+![DFF Async Set](./DFF_ASYNC_SET.png)
+
+---
+
+## 7. Sequential Circuit – Flip-Flop Implementation
+
+![Flip Flop](./FLIP_FLOP.png)
+
+---
+
+## 8. Optimization Case – mul2
+
+![mul2](./MUL2.png)
+
+---
+
+## 9. Combinational Logic – mult8
+
+![mult8](./MULT8.png)
