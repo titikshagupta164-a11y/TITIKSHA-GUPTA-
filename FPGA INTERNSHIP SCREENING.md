@@ -1,4 +1,4 @@
-### SKY130 RTL Design and Synthesis Workshop
+## SKY130 RTL Design and Synthesis Workshop
 
 ## Tools Used
 
@@ -31,22 +31,17 @@ Gate-Level Netlist + Visualization
 ## 1. MUX Synthesis (good_mux)
 Description:
 A 2:1 multiplexer is designed and synthesized. Output y selects between i0 and i1 based on sel.
-Step 1: Compile
+# Simulation (Icarus Verilog)
 iverilog good_mux.v tb_good_mux.v
-Step 2: Run
 ./a.out
-Step 3: View waveform
 gtkwave tb_good_mux.vcd
-Step 4: Start Yosys
+
+# Synthesis (Yosys)
 yosys
-Step 5: Read files
 read_liberty -lib sky130_fd_sc_hd__tt_025C_1v80.lib
 read_verilog good_mux.v
-Step 6: Synthesize
 synth -top good_mux
-Step 7: Technology mapping
 abc -liberty sky130_fd_sc_hd__tt_025C_1v80.lib
-Step 8: Show schematic
 show
 
 ![MUX](./MUX.png)
